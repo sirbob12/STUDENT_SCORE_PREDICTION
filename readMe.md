@@ -39,6 +39,8 @@ cd price-prediction-app
 
 
 ### 2. Create a virtual environment and activate it
+
+```bash
 python -m venv venv
 # On Windows:
 venv\\Scripts\\activate
@@ -47,9 +49,13 @@ source venv/bin/activate
 
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
 
 ### 4. Start the fastApi server
+
+```bash
 cd app
 uvicorn main:app --reload
 
