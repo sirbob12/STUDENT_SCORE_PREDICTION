@@ -36,27 +36,10 @@ A Linear Regression model was trained on this data and saved as `prediction_mode
 ```bash
 git clone https://github.com/yourusername/price-prediction-app.git
 cd price-prediction-app
+---
 
 
-### 2. Create a virtual environment and activate it
-
-```bash
-python -m venv venv
-# On Windows:
-venv\\Scripts\\activate
-# On Mac/Linux:
-source venv/bin/activate
 
 
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-### 4. Start the fastApi server
-
-```bash
-cd app
-uvicorn main:app --reload
 
 
