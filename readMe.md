@@ -1,4 +1,4 @@
-from pathlib import Path
+# from pathlib import Path
 
 readme_content = """
 # 📊 Study Hours vs. Exam Score Prediction App
